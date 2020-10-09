@@ -20,6 +20,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     color: white;
 }
@@ -35,7 +36,7 @@ a:hover {
 .cover-img ul li {
     display: inline-block;
     margin: 0 5px;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.2em;
 }
 
 .cover-img .contact-btn {
@@ -217,7 +218,7 @@ section.shows-extend {
 .contact {
     background: rgb(20, 19, 19);
     width: 100%;
-    height: 200vh;
+    height: 200%;
     color: white;
     padding: 40px 0;
 }
@@ -292,12 +293,16 @@ div.form textarea {
     color: white;
     font-size: 22px;
 }
-div.form a {
+div.form .send-btn {
     background: #FFFFFF;
-    color: black;
     border-radius: 5px;
+    padding: 25px 5em;
+    width: 100%;
+}
+div.form .send-btn a{
     text-decoration: none;
-    padding: 25px 115px;
+    color: black;
+    letter-spacing: 1.5px;
 }
 
   /* FOOTER */
